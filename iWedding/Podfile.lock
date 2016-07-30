@@ -1,0 +1,45 @@
+PODS:
+  - Alamofire (3.4.1)
+  - IQKeyboardManagerSwift (4.0.3)
+  - Kingfisher (2.4.2)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.12)
+  - Realm (1.0.2):
+    - Realm/Headers (= 1.0.2)
+  - Realm/Headers (1.0.2)
+  - RealmSwift (1.0.2):
+    - Realm (= 1.0.2)
+  - RxCocoa (2.6.0):
+    - RxSwift (~> 2.5)
+  - RxDataSources (0.9):
+    - RxCocoa (~> 2.2)
+    - RxSwift (~> 2.2)
+  - RxSwift (2.6.0)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4)
+  - IQKeyboardManagerSwift (= 4.0.3)
+  - Kingfisher (~> 2.4)
+  - MBProgressHUD (~> 0.9.2)
+  - MJRefresh
+  - RealmSwift
+  - RxCocoa (~> 2.0)
+  - RxDataSources (~> 0.7)
+  - RxSwift (~> 2.0)
+  - SwiftyJSON (~> 2.3.1)
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  IQKeyboardManagerSwift: b6883b720b0e76473692fdc80828442566e1075f
+  Kingfisher: 05bf8d04408aaa70fcd2c8c81b9f1d0f1ad313dd
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  Realm: 9d5c46a4d7d27958530a8dfc58f63a99e5c2cba3
+  RealmSwift: 82f3ac5e24530143dddfde2033acc0d308f27d96
+  RxCocoa: 89ab00d5753502520227940e3a0e0a0413683c6b
+  RxDataSources: e169bba94a7be584df7c1e1487fa56edc8753ae6
+  RxSwift: 77f3a0b15324baa7a1c9bfa9f199648a82424e26
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+COCOAPODS: 0.39.0
