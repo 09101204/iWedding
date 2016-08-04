@@ -16,6 +16,7 @@
 		9BC47F6E1D4D096200B25C1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC47F6C1D4D096200B25C1F /* LaunchScreen.storyboard */; };
 		9BC47F791D4D096300B25C1F /* iWeddingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC47F781D4D096300B25C1F /* iWeddingTests.swift */; };
 		9BC47F841D4D096300B25C1F /* iWeddingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC47F831D4D096300B25C1F /* iWeddingUITests.swift */; };
+		9BC47FA91D53321800B25C1F /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC47FA81D53321800B25C1F /* BaseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		9BC47F831D4D096300B25C1F /* iWeddingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWeddingUITests.swift; sourceTree = "<group>"; };
 		9BC47F851D4D096300B25C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BC47F911D4D123900B25C1F /* iWedding-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iWedding-Bridging-Header.h"; sourceTree = "<group>"; };
+		9BC47FA81D53321800B25C1F /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		DDD01419AB0D58AB9A1C5127 /* Pods-iWedding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWedding.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iWedding/Pods-iWedding.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +117,7 @@
 		9BC47F5F1D4D096200B25C1F /* iWedding */ = {
 			isa = PBXGroup;
 			children = (
+				9BC47FA71D53320600B25C1F /* General */,
 				9BC47F601D4D096200B25C1F /* AppDelegate.swift */,
 				9BC47F621D4D096200B25C1F /* ViewController.swift */,
 				9BC47F641D4D096200B25C1F /* Main.storyboard */,
@@ -143,6 +146,14 @@
 				9BC47F851D4D096300B25C1F /* Info.plist */,
 			);
 			path = iWeddingUITests;
+			sourceTree = "<group>";
+		};
+		9BC47FA71D53320600B25C1F /* General */ = {
+			isa = PBXGroup;
+			children = (
+				9BC47FA81D53321800B25C1F /* BaseModel.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 		E0E5164A1791FDE7C44C2B80 /* Pods */ = {
@@ -338,6 +349,7 @@
 			files = (
 				9BC47F691D4D096200B25C1F /* iWedding.xcdatamodeld in Sources */,
 				9BC47F631D4D096200B25C1F /* ViewController.swift in Sources */,
+				9BC47FA91D53321800B25C1F /* BaseModel.swift in Sources */,
 				9BC47F611D4D096200B25C1F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
