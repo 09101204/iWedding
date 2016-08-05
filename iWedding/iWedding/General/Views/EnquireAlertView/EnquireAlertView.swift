@@ -49,17 +49,16 @@ class EnquireAlertView: UIView {
     }
     
     
+    
     func alertView() -> EnquireAlertView {
         print(#function)
         return NSBundle.mainBundle().loadNibNamed("EnquireAlertView", owner: nil, options: nil).first as! EnquireAlertView
     }
     
     func show() {
-        print(self)
         let a = alertView()
         a.frame = topViewController().view.bounds
         topViewController().view.addSubview(a)
-        print(self)
     }
     
     func topViewController() -> UIViewController {
