@@ -31,6 +31,7 @@
 		9BC47FD01D549B4B00B25C1F /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC47FCF1D549B4B00B25C1F /* MineViewController.swift */; };
 		9BC47FD21D549B8F00B25C1F /* ToolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC47FD11D549B8F00B25C1F /* ToolViewController.swift */; };
 		9BC47FD41D549BC700B25C1F /* Tool.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC47FD31D549BC700B25C1F /* Tool.storyboard */; };
+		9BC47FD71D563A0000B25C1F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC47FD61D563A0000B25C1F /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		9BC47FCF1D549B4B00B25C1F /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		9BC47FD11D549B8F00B25C1F /* ToolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolViewController.swift; sourceTree = "<group>"; };
 		9BC47FD31D549BC700B25C1F /* Tool.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tool.storyboard; sourceTree = "<group>"; };
+		9BC47FD61D563A0000B25C1F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		DDD01419AB0D58AB9A1C5127 /* Pods-iWedding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWedding.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iWedding/Pods-iWedding.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -216,6 +218,7 @@
 		9BC47FBB1D5499B600B25C1F /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				9BC47FD51D56398900B25C1F /* Main(UI入口) */,
 				9BC47FBC1D5499B600B25C1F /* Category(分类) */,
 				9BC47FBD1D5499B600B25C1F /* Community(新娘说) */,
 				9BC47FBE1D5499B600B25C1F /* Home(首页) */,
@@ -268,6 +271,14 @@
 				9BC47FD31D549BC700B25C1F /* Tool.storyboard */,
 			);
 			path = "Tool(工具)";
+			sourceTree = "<group>";
+		};
+		9BC47FD51D56398900B25C1F /* Main(UI入口) */ = {
+			isa = PBXGroup;
+			children = (
+				9BC47FD61D563A0000B25C1F /* MainViewController.swift */,
+			);
+			path = "Main(UI入口)";
 			sourceTree = "<group>";
 		};
 		E0E5164A1791FDE7C44C2B80 /* Pods */ = {
@@ -473,6 +484,7 @@
 				9BC47FB51D547EFE00B25C1F /* BaseNavigationController.swift in Sources */,
 				9BC47FAF1D54420100B25C1F /* EnquireAlertView.swift in Sources */,
 				9BC47FA91D53321800B25C1F /* BaseModel.swift in Sources */,
+				9BC47FD71D563A0000B25C1F /* MainViewController.swift in Sources */,
 				9BC47FD21D549B8F00B25C1F /* ToolViewController.swift in Sources */,
 				9BC47FCA1D549A6500B25C1F /* HomeViewController.swift in Sources */,
 				9BC47FC21D5499E100B25C1F /* CategoryViewController.swift in Sources */,
