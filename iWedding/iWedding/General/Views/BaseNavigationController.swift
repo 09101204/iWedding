@@ -10,6 +10,8 @@ import UIKit
 
 private let kTitleTextColor:UIColor = UIColor(red: 1.0, green: 112.0/255.0, blue: 94.0/225.0, alpha: 1.0)
 
+private let kTitleTextFont = UIFont.systemFontOfSize(17.0)
+
 @objc
 protocol BaseNavigationControllerDelegate:UINavigationBarDelegate
 {
@@ -98,19 +100,23 @@ class BaseNavigationController: UINavigationController {
         let navigationBar = UINavigationBar.appearance()
         
         // 定义一个可变字典变量,用于保存bar属性
-        let titleTextAttributes = NSMutableDictionary()
+        var titleTextAttributes = [String: AnyObject]()
+
+        // 设置字体颜色
+        titleTextAttributes[NSForegroundColorAttributeName] = kTitleTextColor
+        titleTextAttributes[NSFontAttributeName] = kTitleTextFont
+        
+        navigationBar.titleTextAttributes = titleTextAttributes
         
         // 半透明属性
         navigationBar.translucent = false
+
         
-        // 设置字体颜色
-        titleTextAttributes.setValue(kTitleTextColor, forKey: NSForegroundColorAttributeName)
-        
-        // 设置bar背景图
-        navigationBar.setBackgroundImage(UIImage(named: "bgTabbar"), forBarMetrics: UIBarMetrics.Default)
+//        // 设置bar背景图
+//        navigationBar.setBackgroundImage(UIImage(named: "bgTabbar"), forBarMetrics: UIBarMetrics.Default)
         
         //设置bar样式,如果不设置,那么状态栏样式不会改变!!
-        navigationBar.barStyle = UIBarStyle.Black
+        navigationBar.barStyle = UIBarStyle.Default
         //设置状态栏样式
         UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: true)
     }
