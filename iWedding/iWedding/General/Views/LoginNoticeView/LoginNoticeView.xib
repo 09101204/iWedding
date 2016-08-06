@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sGG-aG-tuA">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Cd-pp-P84">
+                    <rect key="frame" x="0.0" y="3" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="huz-K3-QkK"/>
+                        <constraint firstAttribute="width" constant="44" id="vvI-Yb-Ub8"/>
+                    </constraints>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="6Cd-pp-P84" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="78B-3q-bcu"/>
+                <constraint firstAttribute="trailing" secondItem="sGG-aG-tuA" secondAttribute="trailing" id="BuB-sZ-KSg"/>
+                <constraint firstAttribute="bottom" secondItem="sGG-aG-tuA" secondAttribute="bottom" id="HoD-7p-HuE"/>
+                <constraint firstItem="sGG-aG-tuA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="OlM-HI-Dec"/>
+                <constraint firstItem="6Cd-pp-P84" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="k4f-5H-ZDO"/>
+                <constraint firstItem="sGG-aG-tuA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="lcj-Oq-rWN"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="314.5" y="251"/>
+        </view>
+    </objects>
+</document>

@@ -32,6 +32,8 @@
 		9BC47FD21D549B8F00B25C1F /* ToolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC47FD11D549B8F00B25C1F /* ToolViewController.swift */; };
 		9BC47FD41D549BC700B25C1F /* Tool.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC47FD31D549BC700B25C1F /* Tool.storyboard */; };
 		9BC47FD71D563A0000B25C1F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC47FD61D563A0000B25C1F /* MainViewController.swift */; };
+		9BC47FDA1D56493400B25C1F /* LoginNoticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC47FD91D56493400B25C1F /* LoginNoticeView.swift */; };
+		9BC47FDC1D56495E00B25C1F /* LoginNoticeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BC47FDB1D56495E00B25C1F /* LoginNoticeView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,8 @@
 		9BC47FD11D549B8F00B25C1F /* ToolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolViewController.swift; sourceTree = "<group>"; };
 		9BC47FD31D549BC700B25C1F /* Tool.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tool.storyboard; sourceTree = "<group>"; };
 		9BC47FD61D563A0000B25C1F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9BC47FD91D56493400B25C1F /* LoginNoticeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginNoticeView.swift; sourceTree = "<group>"; };
+		9BC47FDB1D56495E00B25C1F /* LoginNoticeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginNoticeView.xib; sourceTree = "<group>"; };
 		DDD01419AB0D58AB9A1C5127 /* Pods-iWedding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWedding.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iWedding/Pods-iWedding.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -191,6 +195,7 @@
 		9BC47FAC1D5441DB00B25C1F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9BC47FD81D56491300B25C1F /* LoginNoticeView */,
 				9BC47FAD1D5441DB00B25C1F /* EnquireAlertView */,
 				9BC47FB41D547EFE00B25C1F /* BaseNavigationController.swift */,
 				9BC47FB61D547F2B00B25C1F /* BaseTabBarController.swift */,
@@ -279,6 +284,15 @@
 				9BC47FD61D563A0000B25C1F /* MainViewController.swift */,
 			);
 			path = "Main(UI入口)";
+			sourceTree = "<group>";
+		};
+		9BC47FD81D56491300B25C1F /* LoginNoticeView */ = {
+			isa = PBXGroup;
+			children = (
+				9BC47FD91D56493400B25C1F /* LoginNoticeView.swift */,
+				9BC47FDB1D56495E00B25C1F /* LoginNoticeView.xib */,
+			);
+			path = LoginNoticeView;
 			sourceTree = "<group>";
 		};
 		E0E5164A1791FDE7C44C2B80 /* Pods */ = {
@@ -405,6 +419,7 @@
 				9BC47FCE1D549B3E00B25C1F /* Mine.storyboard in Resources */,
 				9BC47FC61D549A3500B25C1F /* Community.storyboard in Resources */,
 				9BC47F6B1D4D096200B25C1F /* Assets.xcassets in Resources */,
+				9BC47FDC1D56495E00B25C1F /* LoginNoticeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +492,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC47FDA1D56493400B25C1F /* LoginNoticeView.swift in Sources */,
 				9BC47FB71D547F2B00B25C1F /* BaseTabBarController.swift in Sources */,
 				9BC47F691D4D096200B25C1F /* iWedding.xcdatamodeld in Sources */,
 				9BC47F631D4D096200B25C1F /* ViewController.swift in Sources */,
