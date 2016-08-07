@@ -9,11 +9,17 @@
 import UIKit
 
 class ToolViewController: UIViewController {
+    
+    // MARK: - Storyboard关联
+    @IBOutlet weak var tableView: UITableView!
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        tableView.tableFooterView = UIView()
     }
 
     override func didReceiveMemoryWarning() {
