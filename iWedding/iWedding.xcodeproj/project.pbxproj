@@ -34,6 +34,7 @@
 		9BC47FD71D563A0000B25C1F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC47FD61D563A0000B25C1F /* MainViewController.swift */; };
 		9BC47FDA1D56493400B25C1F /* LoginNoticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC47FD91D56493400B25C1F /* LoginNoticeView.swift */; };
 		9BC47FDC1D56495E00B25C1F /* LoginNoticeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BC47FDB1D56495E00B25C1F /* LoginNoticeView.xib */; };
+		9BF0836F1D582A5500FCF3D9 /* MineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF0836E1D582A5500FCF3D9 /* MineTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		9BC47FD61D563A0000B25C1F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9BC47FD91D56493400B25C1F /* LoginNoticeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginNoticeView.swift; sourceTree = "<group>"; };
 		9BC47FDB1D56495E00B25C1F /* LoginNoticeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginNoticeView.xib; sourceTree = "<group>"; };
+		9BF0836E1D582A5500FCF3D9 /* MineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineTableViewController.swift; sourceTree = "<group>"; };
 		DDD01419AB0D58AB9A1C5127 /* Pods-iWedding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWedding.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iWedding/Pods-iWedding.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -265,6 +267,7 @@
 			children = (
 				9BC47FCD1D549B3E00B25C1F /* Mine.storyboard */,
 				9BC47FCF1D549B4B00B25C1F /* MineViewController.swift */,
+				9BF0836E1D582A5500FCF3D9 /* MineTableViewController.swift */,
 			);
 			path = "Mine(我的)";
 			sourceTree = "<group>";
@@ -500,6 +503,7 @@
 				9BC47FB51D547EFE00B25C1F /* BaseNavigationController.swift in Sources */,
 				9BC47FAF1D54420100B25C1F /* EnquireAlertView.swift in Sources */,
 				9BC47FA91D53321800B25C1F /* BaseModel.swift in Sources */,
+				9BF0836F1D582A5500FCF3D9 /* MineTableViewController.swift in Sources */,
 				9BC47FD71D563A0000B25C1F /* MainViewController.swift in Sources */,
 				9BC47FD21D549B8F00B25C1F /* ToolViewController.swift in Sources */,
 				9BC47FCA1D549A6500B25C1F /* HomeViewController.swift in Sources */,
