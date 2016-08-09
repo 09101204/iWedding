@@ -35,6 +35,8 @@
 		9BC47FDA1D56493400B25C1F /* LoginNoticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC47FD91D56493400B25C1F /* LoginNoticeView.swift */; };
 		9BC47FDC1D56495E00B25C1F /* LoginNoticeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BC47FDB1D56495E00B25C1F /* LoginNoticeView.xib */; };
 		9BF0836F1D582A5500FCF3D9 /* MineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF0836E1D582A5500FCF3D9 /* MineTableViewController.swift */; };
+		9BF083AF1D5A2AB600FCF3D9 /* CommunityPersonNavbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF083AE1D5A2AB600FCF3D9 /* CommunityPersonNavbar.swift */; };
+		9BF083B11D5A2ABE00FCF3D9 /* CommunityPersonNavbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BF083B01D5A2ABE00FCF3D9 /* CommunityPersonNavbar.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +93,8 @@
 		9BC47FD91D56493400B25C1F /* LoginNoticeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginNoticeView.swift; sourceTree = "<group>"; };
 		9BC47FDB1D56495E00B25C1F /* LoginNoticeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginNoticeView.xib; sourceTree = "<group>"; };
 		9BF0836E1D582A5500FCF3D9 /* MineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineTableViewController.swift; sourceTree = "<group>"; };
+		9BF083AE1D5A2AB600FCF3D9 /* CommunityPersonNavbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityPersonNavbar.swift; sourceTree = "<group>"; };
+		9BF083B01D5A2ABE00FCF3D9 /* CommunityPersonNavbar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommunityPersonNavbar.xib; sourceTree = "<group>"; };
 		DDD01419AB0D58AB9A1C5127 /* Pods-iWedding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWedding.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iWedding/Pods-iWedding.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -197,6 +201,7 @@
 		9BC47FAC1D5441DB00B25C1F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9BF083AD1D5A2A9600FCF3D9 /* CommunityPersonNavbar */,
 				9BC47FD81D56491300B25C1F /* LoginNoticeView */,
 				9BC47FAD1D5441DB00B25C1F /* EnquireAlertView */,
 				9BC47FB41D547EFE00B25C1F /* BaseNavigationController.swift */,
@@ -296,6 +301,15 @@
 				9BC47FDB1D56495E00B25C1F /* LoginNoticeView.xib */,
 			);
 			path = LoginNoticeView;
+			sourceTree = "<group>";
+		};
+		9BF083AD1D5A2A9600FCF3D9 /* CommunityPersonNavbar */ = {
+			isa = PBXGroup;
+			children = (
+				9BF083AE1D5A2AB600FCF3D9 /* CommunityPersonNavbar.swift */,
+				9BF083B01D5A2ABE00FCF3D9 /* CommunityPersonNavbar.xib */,
+			);
+			path = CommunityPersonNavbar;
 			sourceTree = "<group>";
 		};
 		E0E5164A1791FDE7C44C2B80 /* Pods */ = {
@@ -416,6 +430,7 @@
 			files = (
 				9BC47FC41D5499F000B25C1F /* Category.storyboard in Resources */,
 				9BC47F6E1D4D096200B25C1F /* LaunchScreen.storyboard in Resources */,
+				9BF083B11D5A2ABE00FCF3D9 /* CommunityPersonNavbar.xib in Resources */,
 				9BC47FB11D54420D00B25C1F /* EnquireAlertView.xib in Resources */,
 				9BC47FCC1D549A7200B25C1F /* Home.storyboard in Resources */,
 				9BC47FD41D549BC700B25C1F /* Tool.storyboard in Resources */,
@@ -509,6 +524,7 @@
 				9BC47FCA1D549A6500B25C1F /* HomeViewController.swift in Sources */,
 				9BC47FC21D5499E100B25C1F /* CategoryViewController.swift in Sources */,
 				9BC47FC81D549A3F00B25C1F /* CommunityViewController.swift in Sources */,
+				9BF083AF1D5A2AB600FCF3D9 /* CommunityPersonNavbar.swift in Sources */,
 				9BC47F611D4D096200B25C1F /* AppDelegate.swift in Sources */,
 				9BC47FD01D549B4B00B25C1F /* MineViewController.swift in Sources */,
 			);
