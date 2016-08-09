@@ -226,11 +226,21 @@
                                                 <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                         </view>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="db7-mt-eSx">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="83.5"/>
+                                            <connections>
+                                                <segue destination="Do4-IA-D1w" kind="show" id="ik3-kE-TUw"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <constraints>
+                                        <constraint firstItem="db7-mt-eSx" firstAttribute="top" secondItem="h4v-Gb-GYC" secondAttribute="top" id="I6N-lv-sV8"/>
+                                        <constraint firstItem="db7-mt-eSx" firstAttribute="leading" secondItem="h4v-Gb-GYC" secondAttribute="leading" id="MHe-p8-nV2"/>
+                                        <constraint firstAttribute="trailing" secondItem="db7-mt-eSx" secondAttribute="trailing" id="Maj-Ts-xOR"/>
                                         <constraint firstItem="Qux-yt-Yt4" firstAttribute="centerY" secondItem="h4v-Gb-GYC" secondAttribute="centerY" id="YU2-aZ-cb1"/>
                                         <constraint firstItem="Qux-yt-Yt4" firstAttribute="leading" secondItem="h4v-Gb-GYC" secondAttribute="leading" constant="15" id="fQy-wK-PNq"/>
+                                        <constraint firstAttribute="bottom" secondItem="db7-mt-eSx" secondAttribute="bottom" id="rqK-4c-m9o"/>
                                     </constraints>
                                 </view>
                             </subviews>
@@ -340,6 +350,56 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VkP-83-hHa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-177.5" y="411.5"/>
+        </scene>
+        <!--User Info View Controller-->
+        <scene sceneID="LWI-Jd-eGa">
+            <objects>
+                <viewController storyboardIdentifier="UserInfoViewController" id="Do4-IA-D1w" customClass="UserInfoViewController" customModule="iWedding" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="arc-WP-2QP"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Ou-OR-QHY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cEe-Hu-2Ho">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YBb-ge-ZaQ" customClass="CommunityPersonTopView" customModule="iWedding" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="280"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="280" id="TfW-uC-0i0"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xtS-dn-7Aj" customClass="CommunityPersonNavbar" customModule="iWedding" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="T9h-xu-Yzw"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="xtS-dn-7Aj" secondAttribute="trailing" id="BGC-yx-2co"/>
+                            <constraint firstItem="xtS-dn-7Aj" firstAttribute="leading" secondItem="cEe-Hu-2Ho" secondAttribute="leading" id="DA3-q3-7Gd"/>
+                            <constraint firstItem="xtS-dn-7Aj" firstAttribute="top" secondItem="cEe-Hu-2Ho" secondAttribute="top" id="LKA-vM-nVq"/>
+                            <constraint firstItem="YBb-ge-ZaQ" firstAttribute="top" secondItem="xtS-dn-7Aj" secondAttribute="bottom" id="XvW-Jt-ShL"/>
+                            <constraint firstItem="YBb-ge-ZaQ" firstAttribute="top" secondItem="cEe-Hu-2Ho" secondAttribute="top" id="axQ-6Y-2Gk"/>
+                            <constraint firstItem="YBb-ge-ZaQ" firstAttribute="leading" secondItem="cEe-Hu-2Ho" secondAttribute="leading" id="bY3-lM-c2V"/>
+                            <constraint firstAttribute="trailing" secondItem="YBb-ge-ZaQ" secondAttribute="trailing" id="q42-2x-YHn"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="XvW-Jt-ShL"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fzw-1m-wZq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="259.5" y="411.5"/>
         </scene>
     </scenes>
     <resources>

@@ -37,6 +37,9 @@
 		9BF0836F1D582A5500FCF3D9 /* MineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF0836E1D582A5500FCF3D9 /* MineTableViewController.swift */; };
 		9BF083AF1D5A2AB600FCF3D9 /* CommunityPersonNavbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF083AE1D5A2AB600FCF3D9 /* CommunityPersonNavbar.swift */; };
 		9BF083B11D5A2ABE00FCF3D9 /* CommunityPersonNavbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BF083B01D5A2ABE00FCF3D9 /* CommunityPersonNavbar.xib */; };
+		9BF083B41D5A33B300FCF3D9 /* CommunityPersonTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BF083B31D5A33B300FCF3D9 /* CommunityPersonTopView.xib */; };
+		9BF083B61D5A33BE00FCF3D9 /* CommunityPersonTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF083B51D5A33BE00FCF3D9 /* CommunityPersonTopView.swift */; };
+		9BF083B81D5A3B4700FCF3D9 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF083B71D5A3B4700FCF3D9 /* UserInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +98,9 @@
 		9BF0836E1D582A5500FCF3D9 /* MineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineTableViewController.swift; sourceTree = "<group>"; };
 		9BF083AE1D5A2AB600FCF3D9 /* CommunityPersonNavbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityPersonNavbar.swift; sourceTree = "<group>"; };
 		9BF083B01D5A2ABE00FCF3D9 /* CommunityPersonNavbar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommunityPersonNavbar.xib; sourceTree = "<group>"; };
+		9BF083B31D5A33B300FCF3D9 /* CommunityPersonTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommunityPersonTopView.xib; sourceTree = "<group>"; };
+		9BF083B51D5A33BE00FCF3D9 /* CommunityPersonTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityPersonTopView.swift; sourceTree = "<group>"; };
+		9BF083B71D5A3B4700FCF3D9 /* UserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 		DDD01419AB0D58AB9A1C5127 /* Pods-iWedding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWedding.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iWedding/Pods-iWedding.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -201,6 +207,7 @@
 		9BC47FAC1D5441DB00B25C1F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9BF083B21D5A33AD00FCF3D9 /* CommunityPersonTopView */,
 				9BF083AD1D5A2A9600FCF3D9 /* CommunityPersonNavbar */,
 				9BC47FD81D56491300B25C1F /* LoginNoticeView */,
 				9BC47FAD1D5441DB00B25C1F /* EnquireAlertView */,
@@ -273,6 +280,7 @@
 				9BC47FCD1D549B3E00B25C1F /* Mine.storyboard */,
 				9BC47FCF1D549B4B00B25C1F /* MineViewController.swift */,
 				9BF0836E1D582A5500FCF3D9 /* MineTableViewController.swift */,
+				9BF083B71D5A3B4700FCF3D9 /* UserInfoViewController.swift */,
 			);
 			path = "Mine(我的)";
 			sourceTree = "<group>";
@@ -310,6 +318,15 @@
 				9BF083B01D5A2ABE00FCF3D9 /* CommunityPersonNavbar.xib */,
 			);
 			path = CommunityPersonNavbar;
+			sourceTree = "<group>";
+		};
+		9BF083B21D5A33AD00FCF3D9 /* CommunityPersonTopView */ = {
+			isa = PBXGroup;
+			children = (
+				9BF083B31D5A33B300FCF3D9 /* CommunityPersonTopView.xib */,
+				9BF083B51D5A33BE00FCF3D9 /* CommunityPersonTopView.swift */,
+			);
+			path = CommunityPersonTopView;
 			sourceTree = "<group>";
 		};
 		E0E5164A1791FDE7C44C2B80 /* Pods */ = {
@@ -435,6 +452,7 @@
 				9BC47FCC1D549A7200B25C1F /* Home.storyboard in Resources */,
 				9BC47FD41D549BC700B25C1F /* Tool.storyboard in Resources */,
 				9BC47FCE1D549B3E00B25C1F /* Mine.storyboard in Resources */,
+				9BF083B41D5A33B300FCF3D9 /* CommunityPersonTopView.xib in Resources */,
 				9BC47FC61D549A3500B25C1F /* Community.storyboard in Resources */,
 				9BC47F6B1D4D096200B25C1F /* Assets.xcassets in Resources */,
 				9BC47FDC1D56495E00B25C1F /* LoginNoticeView.xib in Resources */,
@@ -517,6 +535,7 @@
 				9BC47FBA1D54924700B25C1F /* UIColorExtension.swift in Sources */,
 				9BC47FB51D547EFE00B25C1F /* BaseNavigationController.swift in Sources */,
 				9BC47FAF1D54420100B25C1F /* EnquireAlertView.swift in Sources */,
+				9BF083B61D5A33BE00FCF3D9 /* CommunityPersonTopView.swift in Sources */,
 				9BC47FA91D53321800B25C1F /* BaseModel.swift in Sources */,
 				9BF0836F1D582A5500FCF3D9 /* MineTableViewController.swift in Sources */,
 				9BC47FD71D563A0000B25C1F /* MainViewController.swift in Sources */,
@@ -527,6 +546,7 @@
 				9BF083AF1D5A2AB600FCF3D9 /* CommunityPersonNavbar.swift in Sources */,
 				9BC47F611D4D096200B25C1F /* AppDelegate.swift in Sources */,
 				9BC47FD01D549B4B00B25C1F /* MineViewController.swift in Sources */,
+				9BF083B81D5A3B4700FCF3D9 /* UserInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

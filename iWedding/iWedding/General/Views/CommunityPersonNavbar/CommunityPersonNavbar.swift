@@ -10,6 +10,7 @@ import UIKit
 
 class CommunityPersonNavbar: UIView {
 
+    @IBOutlet var contentView: UIView!
     /*
     // Only override drawRect: if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
@@ -18,12 +19,17 @@ class CommunityPersonNavbar: UIView {
     }
     */
     
+    
     // MARK: - 唤醒view
     override func awakeFromNib() {
         
         self.autoresizingMask = UIViewAutoresizing.None
+        
+        NSBundle.mainBundle().loadNibNamed("CommunityPersonNavbar", owner: self, options: nil)
+        self.addSubview(contentView)
     }
     
+    /*
     func navbar() -> CommunityPersonNavbar {
         let navbar = NSBundle.mainBundle().loadNibNamed("CommunityPersonNavbar", owner: nil, options: nil).first as! CommunityPersonNavbar
         
@@ -34,5 +40,6 @@ class CommunityPersonNavbar: UIView {
         return navbar
         
     }
+    */
 
 }
