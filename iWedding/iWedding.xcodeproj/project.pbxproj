@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		410B87B6B98C693E23CC099A /* Pods_iWedding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13ED3C2F60849AAC1E525BA3 /* Pods_iWedding.framework */; };
+		9B6C786D1D5F6C9900F473DB /* UserCenterNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C786B1D5F6C9900F473DB /* UserCenterNormalCell.swift */; };
+		9B6C786E1D5F6C9900F473DB /* UserCenterNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B6C786C1D5F6C9900F473DB /* UserCenterNormalCell.xib */; };
 		9BC47F611D4D096200B25C1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC47F601D4D096200B25C1F /* AppDelegate.swift */; };
 		9BC47F631D4D096200B25C1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC47F621D4D096200B25C1F /* ViewController.swift */; };
 		9BC47F691D4D096200B25C1F /* iWedding.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BC47F671D4D096200B25C1F /* iWedding.xcdatamodeld */; };
@@ -62,6 +64,8 @@
 /* Begin PBXFileReference section */
 		13ED3C2F60849AAC1E525BA3 /* Pods_iWedding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iWedding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D259589F3A62D276A5260A0 /* Pods-iWedding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWedding.release.xcconfig"; path = "Pods/Target Support Files/Pods-iWedding/Pods-iWedding.release.xcconfig"; sourceTree = "<group>"; };
+		9B6C786B1D5F6C9900F473DB /* UserCenterNormalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCenterNormalCell.swift; sourceTree = "<group>"; };
+		9B6C786C1D5F6C9900F473DB /* UserCenterNormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCenterNormalCell.xib; sourceTree = "<group>"; };
 		9BC47F5D1D4D096200B25C1F /* iWedding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWedding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC47F601D4D096200B25C1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BC47F621D4D096200B25C1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +140,15 @@
 				13ED3C2F60849AAC1E525BA3 /* Pods_iWedding.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B6C786A1D5F6C4E00F473DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B6C786B1D5F6C9900F473DB /* UserCenterNormalCell.swift */,
+				9B6C786C1D5F6C9900F473DB /* UserCenterNormalCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		9BC47F541D4D096200B25C1F = {
@@ -277,6 +290,7 @@
 		9BC47FBF1D5499B600B25C1F /* Mine(我的) */ = {
 			isa = PBXGroup;
 			children = (
+				9B6C786A1D5F6C4E00F473DB /* View */,
 				9BC47FCD1D549B3E00B25C1F /* Mine.storyboard */,
 				9BC47FCF1D549B4B00B25C1F /* MineViewController.swift */,
 				9BF0836E1D582A5500FCF3D9 /* MineTableViewController.swift */,
@@ -451,6 +465,7 @@
 				9BC47FB11D54420D00B25C1F /* EnquireAlertView.xib in Resources */,
 				9BC47FCC1D549A7200B25C1F /* Home.storyboard in Resources */,
 				9BC47FD41D549BC700B25C1F /* Tool.storyboard in Resources */,
+				9B6C786E1D5F6C9900F473DB /* UserCenterNormalCell.xib in Resources */,
 				9BC47FCE1D549B3E00B25C1F /* Mine.storyboard in Resources */,
 				9BF083B41D5A33B300FCF3D9 /* CommunityPersonTopView.xib in Resources */,
 				9BC47FC61D549A3500B25C1F /* Community.storyboard in Resources */,
@@ -542,6 +557,7 @@
 				9BC47FD21D549B8F00B25C1F /* ToolViewController.swift in Sources */,
 				9BC47FCA1D549A6500B25C1F /* HomeViewController.swift in Sources */,
 				9BC47FC21D5499E100B25C1F /* CategoryViewController.swift in Sources */,
+				9B6C786D1D5F6C9900F473DB /* UserCenterNormalCell.swift in Sources */,
 				9BC47FC81D549A3F00B25C1F /* CommunityViewController.swift in Sources */,
 				9BF083AF1D5A2AB600FCF3D9 /* CommunityPersonNavbar.swift in Sources */,
 				9BC47F611D4D096200B25C1F /* AppDelegate.swift in Sources */,

@@ -42,7 +42,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8IV-xm-UCK">
                                             <rect key="frame" x="0.0" y="0.0" width="93.5" height="66"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="S0A-hQ-Yso">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="me_yuyue" translatesAutoresizingMaskIntoConstraints="NO" id="S0A-hQ-Yso">
                                                     <rect key="frame" x="36" y="12" width="20" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="Nnc-kL-z3B"/>
@@ -74,7 +74,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dug-KN-IkJ">
                                             <rect key="frame" x="94" y="0.0" width="93.5" height="66"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rdy-JK-b6t">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="me_dingdan" translatesAutoresizingMaskIntoConstraints="NO" id="Rdy-JK-b6t">
                                                     <rect key="frame" x="37" y="12" width="20" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="8RS-hE-vHu"/>
@@ -113,7 +113,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ab-O9-Bas">
                                             <rect key="frame" x="188" y="0.0" width="93" height="66"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tuc-MU-n1a">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="me_gouwuche" translatesAutoresizingMaskIntoConstraints="NO" id="tuc-MU-n1a">
                                                     <rect key="frame" x="36" y="12" width="20" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="DGS-K5-G2h"/>
@@ -138,7 +138,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i15-ov-GmO">
                                             <rect key="frame" x="281" y="0.0" width="93.5" height="66"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JGf-EV-a7x">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="me_qianbao" translatesAutoresizingMaskIntoConstraints="NO" id="JGf-EV-a7x">
                                                     <rect key="frame" x="37" y="12" width="20" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="20" id="ZLX-Hr-Axy"/>
@@ -403,6 +403,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="me_dingdan" width="20" height="20"/>
+        <image name="me_gouwuche" width="20" height="20"/>
+        <image name="me_qianbao" width="17" height="17"/>
+        <image name="me_yuyue" width="20" height="20"/>
         <image name="shadow_line" width="1" height="100"/>
     </resources>
 </document>

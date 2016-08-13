@@ -12,14 +12,14 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="405"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="208"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_userhomepage_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Umf-6p-ie6">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="405"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_userhomepage_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Umf-6p-ie6">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="208"/>
                 </imageView>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6pc-wg-bfF">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="405"/>
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="208"/>
                 </scrollView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
