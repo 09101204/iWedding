@@ -13,4 +13,5 @@ target 'iWedding' do
     pod 'RealmSwift'
     pod 'MJRefresh'
     pod 'Kingfisher', '~> 2.4'
+    pod 'AsyncDisplayKit'
 end
